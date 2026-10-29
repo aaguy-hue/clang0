@@ -27,13 +27,13 @@ pub fn parse_args(args: &mut env::Args) -> ParsedArgs {
     args.next(); // skip the filename
     let mut outflag: bool = false;
     for arg in args {
-        if arg == "-d" && !outflag {
-            parsed.set_dynamic_contracts();
-        } else if arg == "-o" && !outflag {
-            outflag = true;
-        } else if outflag {
+        if outflag {
             parsed.outfile = arg;
             outflag = false;
+        } else if arg == "-o" {
+            outflag = true;
+        } else if arg == "-d" {
+            parsed.set_dynamic_contracts();
         } else {
             parsed.inpfiles.push(arg);
         }
