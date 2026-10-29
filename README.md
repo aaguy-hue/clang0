@@ -3,8 +3,8 @@
 it this as a homage.
 
 Anyways, this is a compiler for C0, a C-like programming language used for
-Carnegie Mellon's introductory programming language used in 15-122 Principles
-of Imperative Computation.
+Carnegie Mellon's introductory programming course 15-122 Principles of
+Imperative Computation.
 
 I am basing the concepts on a video series by the YouTube channel
 (Premature Abstraction)[https://youtube.com/@PrematureAbstraction].
