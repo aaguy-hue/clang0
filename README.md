@@ -7,7 +7,7 @@ Carnegie Mellon's introductory programming course 15-122 Principles of
 Imperative Computation.
 
 I am basing the concepts on a video series by the YouTube channel
-(Premature Abstraction)[https://youtube.com/@PrematureAbstraction].
+[Premature Abstraction](https://youtube.com/@PrematureAbstraction).
 
 
 I am attempting to try and figure things out from scratch from reading about
