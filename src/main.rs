@@ -1,3 +1,9 @@
+mod cli;
+
+use cli::*;
+
 fn main() {
-    println!("Hello, world!");
+    let args: ParsedArgs = parse_args(&mut std::env::args());
+
+    println!("{:?}", args);
 }
